@@ -7,54 +7,42 @@ The project also demonstrates **DTD validation** and **XPath queries** to ensure
 
 ---
 
-## Project Overview
+## 🌐 Live Demo
 
-The XML Book Catalog system is designed to represent book data in a **structured hierarchical format**. XML documents naturally follow a tree-like structure where elements are nested under a root element. :contentReference[oaicite:0]{index=0}  
+You can view the deployed project here:
+
+🔗 https://xml-book-catalog.vercel.app/
+
+---
+
+## 📌 Project Overview
+
+The XML Book Catalog system is designed to represent book data in a **structured hierarchical format**.  
+XML follows a tree-like structure where elements are nested under a root element, making it ideal for storing and organizing structured information.
 
 Using this structure, the catalog organizes book metadata clearly and consistently.
 
 ---
 
-## Features
+## ✨ Features
 
 - Structured book data storage using **XML**
 - **DTD validation** to enforce document structure
 - **XPath queries** to extract specific information
-- Simple and readable hierarchical data representation
-
-XPath is commonly used to navigate XML documents and select nodes such as elements or attributes based on specific criteria. :contentReference[oaicite:1]{index=1}
+- Simple hierarchical data representation
+- Easy navigation and data retrieval
 
 ---
 
-## Technologies Used
+## 🛠 Technologies Used
 
 - XML
 - DTD (Document Type Definition)
 - XPath
+- HTML (for viewing the catalog)
 
 ---
 
-## Project Structure
-
-XML-Book-Catalog
-│
-├── books.xml # XML file containing book catalog data
-├── books.dtd # DTD defining the structure of XML
-└── README.md
-
----
-
-## Example XML Structure
-
-```xml
-<catalog>
-    <book id="1">
-        <title>Clean Code</title>
-        <author>Robert C. Martin</author>
-        <publisher>Prentice Hall</publisher>
-        <year>2008</year>
-    </book>
-</catalog>
 Sample XPath Query
 
 Retrieve all book titles:
