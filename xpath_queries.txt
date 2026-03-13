@@ -1,0 +1,85 @@
+====================================================
+  XPath Queries - XML Book Catalog
+  Author: Final Year Project
+  Purpose: Retrieve specific data from books.xml
+====================================================
+
+1. SELECT ALL BOOKS
+   XPath: /catalog/book
+   Returns: All book elements in the catalog
+
+2. SELECT ALL TITLES
+   XPath: /catalog/book/title
+   Returns: Title of every book
+
+3. SELECT BOOK BY ID
+   XPath: /catalog/book[@id='1']
+   Returns: Book with id attribute equal to 1
+
+4. SELECT BOOKS BY GENRE
+   XPath: /catalog/book[genre='Technology']
+   Returns: All books in the Technology genre
+
+5. SELECT BOOKS PUBLISHED AFTER 2018
+   XPath: /catalog/book[year > 2018]
+   Returns: Books published after year 2018
+
+6. SELECT BOOKS WITH PRICE LESS THAN 600
+   XPath: /catalog/book[price < 600]
+   Returns: Books priced below 600
+
+7. SELECT BOOKS BY SPECIFIC PUBLISHER
+   XPath: /catalog/book[publisher="O'Reilly Media"]
+   Returns: All O'Reilly books
+
+8. SELECT TITLE AND AUTHOR ONLY
+   XPath: /catalog/book/title | /catalog/book/author
+   Returns: Only title and author nodes of all books
+
+9. COUNT TOTAL NUMBER OF BOOKS
+   XPath: count(/catalog/book)
+   Returns: Total number of books in catalog
+
+10. SELECT BOOKS WITH RATING > 4.5
+    XPath: /catalog/book[rating > 4.5]
+    Returns: Highly rated books
+
+11. SELECT BOOKS BY AVAILABILITY
+    XPath: /catalog/book[availability='In Stock']
+    Returns: All books currently in stock
+
+12. SELECT LAST BOOK IN CATALOG
+    XPath: /catalog/book[last()]
+    Returns: The final book entry
+
+13. SELECT FIRST 3 BOOKS
+    XPath: /catalog/book[position() <= 3]
+    Returns: First three book entries
+
+14. SELECT ISBN OF ALL BOOKS
+    XPath: /catalog/book/isbn
+    Returns: ISBN values of all books
+
+15. SELECT BOOKS WITH MORE THAN 500 PAGES
+    XPath: /catalog/book[pages > 500]
+    Returns: Books with more than 500 pages
+
+16. SELECT BOOKS WRITTEN IN ENGLISH
+    XPath: /catalog/book[language='English']
+    Returns: All English language books
+
+17. GET ALL UNIQUE GENRES (using distinct-values in XPath 2.0)
+    XPath: distinct-values(/catalog/book/genre)
+    Returns: List of unique genres
+
+18. SUM OF ALL BOOK PRICES
+    XPath: sum(/catalog/book/price)
+    Returns: Total price of all books combined
+
+19. SELECT MOST EXPENSIVE BOOK
+    XPath: /catalog/book[price = max(/catalog/book/price)]
+    Returns: The book with the highest price
+
+20. SELECT BOOKS BY AUTHOR CONTAINING 'Smith'
+    XPath: /catalog/book[contains(author, 'Smith')]
+    Returns: Books where author name contains 'Smith'

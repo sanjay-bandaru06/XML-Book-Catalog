@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE catalog SYSTEM "books.dtd">
+<?xml-stylesheet type="text/xsl" href="books.xsl"?>
+
+<catalog>
+
+    <book id="1">
+        <title>Learning XML</title>
+        <author>Erik T. Ray</author>
+        <publisher>O'Reilly Media</publisher>
+        <year>2003</year>
+        <price>450</price>
+        <genre>Technology</genre>
+        <isbn>978-0596004200</isbn>
+        <pages>416</pages>
+        <language>English</language>
+        <rating>4.2</rating>
+        <description>A comprehensive guide to XML for beginners and intermediate users, covering document structure, DTD, XPath, and XSLT transformations.</description>
+        <availability>In Stock</availability>
+    </book>
+
+    <book id="2">
+        <title>Web Development Basics</title>
+        <author>John Smith</author>
+        <publisher>Pearson Education</publisher>
+        <year>2018</year>
+        <price>500</price>
+        <genre>Web Development</genre>
+        <isbn>978-0134610993</isbn>
+        <pages>512</pages>
+        <language>English</language>
+        <rating>4.0</rating>
+        <description>Covers HTML, CSS, JavaScript, and modern web development practices for building responsive and interactive websites.</description>
+        <availability>In Stock</availability>
+    </book>
+
+    <book id="3">
+        <title>Introduction to Programming</title>
+        <author>David Miller</author>
+        <publisher>McGraw-Hill Education</publisher>
+        <year>2020</year>
+        <price>600</price>
+        <genre>Programming</genre>
+        <isbn>978-0073523323</isbn>
+        <pages>720</pages>
+        <language>English</language>
+        <rating>4.5</rating>
+        <description>A thorough introduction to programming concepts using Python, covering algorithms, data structures, and problem-solving strategies.</description>
+        <availability>In Stock</availability>
+    </book>
+
+    <book id="4">
+        <title>Database Management Systems</title>
+        <author>Raghu Ramakrishnan</author>
+        <publisher>McGraw-Hill Education</publisher>
+        <year>2019</year>
+        <price>750</price>
+        <genre>Database</genre>
+        <isbn>978-0072465631</isbn>
+        <pages>1120</pages>
+        <language>English</language>
+        <rating>4.7</rating>
+        <description>The definitive text on relational databases covering SQL, normalization, transactions, indexing, and query optimization techniques.</description>
+        <availability>In Stock</availability>
+    </book>
+
+    <book id="5">
+        <title>Artificial Intelligence: A Modern Approach</title>
+        <author>Stuart Russell</author>
+        <publisher>Pearson Education</publisher>
+        <year>2020</year>
+        <price>999</price>
+        <genre>Artificial Intelligence</genre>
+        <isbn>978-0134610993</isbn>
+        <pages>1132</pages>
+        <language>English</language>
+        <rating>4.9</rating>
+        <description>The most comprehensive and authoritative text on artificial intelligence, covering search algorithms, knowledge representation, machine learning, and neural networks.</description>
+        <availability>In Stock</availability>
+    </book>
+
+    <book id="6">
+        <title>Clean Code</title>
+        <author>Robert C. Martin</author>
+        <publisher>Prentice Hall</publisher>
+        <year>2008</year>
+        <price>650</price>
+        <genre>Software Engineering</genre>
+        <isbn>978-0132350884</isbn>
+        <pages>464</pages>
+        <language>English</language>
+        <rating>4.8</rating>
+        <description>A handbook of agile software craftsmanship, teaching developers how to write readable, maintainable, and efficient code with real-world refactoring examples.</description>
+        <availability>In Stock</availability>
+    </book>
+
+    <book id="7">
+        <title>Computer Networks</title>
+        <author>Andrew S. Tanenbaum</author>
+        <publisher>Pearson Education</publisher>
+        <year>2021</year>
+        <price>850</price>
+        <genre>Networking</genre>
+        <isbn>978-0132126953</isbn>
+        <pages>960</pages>
+        <language>English</language>
+        <rating>4.6</rating>
+        <description>Covers all aspects of computer networking including TCP/IP protocols, routing algorithms, network security, and wireless communications.</description>
+        <availability>Limited Stock</availability>
+    </book>
+
+    <book id="8">
+        <title>Operating System Concepts</title>
+        <author>Abraham Silberschatz</author>
+        <publisher>Wiley</publisher>
+        <year>2018</year>
+        <price>780</price>
+        <genre>Operating Systems</genre>
+        <isbn>978-1119800361</isbn>
+        <pages>976</pages>
+        <language>English</language>
+        <rating>4.5</rating>
+        <description>Known as the 'Dinosaur Book', this classic text covers processes, memory management, storage, and security in modern operating systems.</description>
+        <availability>In Stock</availability>
+    </book>
+
+    <book id="9">
+        <title>Data Structures and Algorithms</title>
+        <author>Thomas H. Cormen</author>
+        <publisher>MIT Press</publisher>
+        <year>2022</year>
+        <price>920</price>
+        <genre>Algorithms</genre>
+        <isbn>978-0262046305</isbn>
+        <pages>1312</pages>
+        <language>English</language>
+        <rating>4.8</rating>
+        <description>Introduction to Algorithms is the authoritative reference on algorithm design and analysis, covering sorting, graph algorithms, dynamic programming, and NP-completeness.</description>
+        <availability>In Stock</availability>
+    </book>
+
+    <book id="10">
+        <title>Machine Learning Yearning</title>
+        <author>Andrew Ng</author>
+        <publisher>DeepLearning.AI</publisher>
+        <year>2018</year>
+        <price>480</price>
+        <genre>Machine Learning</genre>
+        <isbn>978-0999579909</isbn>
+        <pages>118</pages>
+        <language>English</language>
+        <rating>4.7</rating>
+        <description>Practical guide from Andrew Ng on how to structure machine learning projects, diagnose errors, and build high-performing AI systems efficiently.</description>
+        <availability>In Stock</availability>
+    </book>
+
+    <book id="11">
+        <title>The Pragmatic Programmer</title>
+        <author>David Thomas</author>
+        <publisher>Addison-Wesley</publisher>
+        <year>2019</year>
+        <price>720</price>
+        <genre>Software Engineering</genre>
+        <isbn>978-0135957059</isbn>
+        <pages>352</pages>
+        <language>English</language>
+        <rating>4.8</rating>
+        <description>A classic software development guide covering career building, technical excellence, and practical tips to become a more effective and versatile programmer.</description>
+        <availability>In Stock</availability>
+    </book>
+
+    <book id="12">
+        <title>Deep Learning</title>
+        <author>Ian Goodfellow</author>
+        <publisher>MIT Press</publisher>
+        <year>2016</year>
+        <price>880</price>
+        <genre>Artificial Intelligence</genre>
+        <isbn>978-0262035613</isbn>
+        <pages>800</pages>
+        <language>English</language>
+        <rating>4.7</rating>
+        <description>The definitive textbook on deep learning by world-class researchers, covering neural network architectures, optimization, regularization, and sequence modeling.</description>
+        <availability>Limited Stock</availability>
+    </book>
+
+    <book id="13">
+        <title>Software Engineering at Google</title>
+        <author>Titus Winters</author>
+        <publisher>O'Reilly Media</publisher>
+        <year>2020</year>
+        <price>810</price>
+        <genre>Software Engineering</genre>
+        <isbn>978-1492082798</isbn>
+        <pages>602</pages>
+        <language>English</language>
+        <rating>4.6</rating>
+        <description>Real lessons from engineering at Google scale — covering software culture, processes, and tools used to build reliable, maintainable large-scale systems.</description>
+        <availability>In Stock</availability>
+    </book>
+
+    <book id="14">
+        <title>Cybersecurity Essentials</title>
+        <author>Charles J. Brooks</author>
+        <publisher>Wiley</publisher>
+        <year>2021</year>
+        <price>690</price>
+        <genre>Cybersecurity</genre>
+        <isbn>978-1119362395</isbn>
+        <pages>784</pages>
+        <language>English</language>
+        <rating>4.3</rating>
+        <description>Comprehensive coverage of cybersecurity concepts including threat analysis, ethical hacking, network security, cryptography, and incident response strategies.</description>
+        <availability>In Stock</availability>
+    </book>
+
+    <book id="15">
+        <title>Cloud Computing: Concepts and Technology</title>
+        <author>Thomas Erl</author>
+        <publisher>Prentice Hall</publisher>
+        <year>2023</year>
+        <price>860</price>
+        <genre>Cloud Computing</genre>
+        <isbn>978-0133387520</isbn>
+        <pages>528</pages>
+        <language>English</language>
+        <rating>4.4</rating>
+        <description>Explores fundamental cloud computing concepts, service models (IaaS, PaaS, SaaS), virtualization technologies, and deployment in modern enterprise environments.</description>
+        <availability>In Stock</availability>
+    </book>
+
+</catalog>
